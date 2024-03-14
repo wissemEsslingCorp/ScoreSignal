@@ -1,0 +1,103 @@
+@model ScoreSignal.Models.MatchEvenementViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+    <input id="matchId" type="hidden" value="@Html.DisplayFor(model => Model.Match.MatchId)">
+    <input id="date" type="hidden" value="@Html.DisplayFor(model => Model.Match.Date)">
+    <input id="equipe1" type="hidden" value="@Html.DisplayFor(model => Model.Match.Equipe1)">
+    <input id="equipe2" type="hidden" value="@Html.DisplayFor(model => Model.Match.Equipe2)">
+    <input id="score1" type="hidden" value="@Html.DisplayFor(model => Model.Match.ScoreEquipe1)">
+    <input id="score2" type="hidden" value="@Html.DisplayFor(model => Model.Match.ScoreEquipe2)">
+    <input id="ligue" type="hidden" value="@Html.DisplayFor(model => Model.Match.Ligue)">
+    <input id="temps1" type="hidden" value="@Html.DisplayFor(model => Model.Match.Temps)">
+<h1>Modifier le Match</h1>
+<table class="table text-white">
+  <tbody  id="match">
+  <!-- Pr>emière ligne -->
+ 
+
+  <!-- Deuxième ligne -->
+  
+
+  <!-- Troisième ligne -->
+ 
+  
+
+   </tbody>
+   </table>
+   <table>
+
+  <tbody>
+  <!-- première ligne -->
+    <tr>
+      <td><button type="submit" class="modifierMatch btn btn-primary" value="but_equipe1"  >Ajouter un But</button></td>
+      <td>  Domicile - Extérieur   </td>
+      <td><button type="submit" class="modifierMatch btn btn-primary" value="but_equipe2" >Ajouter un but</></td>
+    </tr>
+ <!-- Cinquième ligne -->
+
+   
+    <tr>
+        <td><button type="submit" value="demarrerMatch" class="modifierMatch btn btn-primary" id="tempsBtn" > Démarrer le Match </button></td>
+    </tr>
+
+  </tbody>
+</table>  
+<hr/>
+
+ <!-- ===================================================Section Évènement===========================================================  -->
+<h1> Ajouter un évènement </h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+             <div class="form-group">
+                <label asp-for="NouvelEvenement.Description" class="control-label"></label>
+                <select asp-for="NouvelEvenement.Description" class="form-control" id="description" />
+                    <option>BUT</option>
+                    <option>Carton Rouge</option>
+                    <option>Carton Jaune</option>
+                    <option>Coup d'envoi !</option>
+                    <option>Mi-Temps !</option>
+                    <option>Fin du match</option>
+                </select>
+             </div>
+            <div class="form-group">
+                <label asp-for="NouvelEvenement.Buteur" class="control-label"></label>
+                <input asp-for="NouvelEvenement.Buteur" class="form-control" id="buteur" />
+                <span asp-validation-for="NouvelEvenement.Buteur" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NouvelEvenement.Temps" class="control-label"></label>
+                <input asp-for="NouvelEvenement.Temps" class="form-control" type="time" id="temps" />
+                <span asp-validation-for="NouvelEvenement.Temps" class="text-danger"></span>
+            </div>
+            <div>
+                 <input asp-for="NouvelEvenement.MatchId  " class="form-control" type="hidden" value="@Model.Match.MatchId" id="idDuMatch" />
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" id="createEvenement" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index" asp-route-ligue="@Model.Match.Ligue">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+       <script src="~/js/signalr/dist/browser/signalr.js"></script>
+       <script src="~/js/editMatch.js"></script>  
+       <script src="~/js/editMatchVue.js"></script>  
+       <script src="~/js/CreateEvenements.js"></script>
+       
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+}

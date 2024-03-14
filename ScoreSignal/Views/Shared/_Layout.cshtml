@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ScoreSignal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ScoreSignal.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+
+
+</style>
+<body class="w3-black">
+    
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="~/images/logo.jpg" style="width:100%">
+    <a asp-area="" asp-controller="Home" asp-action="Index" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>ACCUEIL</p>
+    </a>
+    <a asp-area="" asp-controller="Matchs" asp-action="Index" asp-route-ligue="MLS" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge "></i>
+        <p>MLS</p>
+    </a>
+    <a asp-area="" asp-controller="Matchs" asp-action="Index" asp-route-ligue="LDC"  class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-trophy w3-xxlarge "></i>
+        <p>UEFA LIGUE DES CHAMPIONS</p>
+    </a>
+
+</nav>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+     <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+        <p>Wissem Benaraiba</p>
+        <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+</div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

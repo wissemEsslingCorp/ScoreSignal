@@ -1,0 +1,22 @@
+@model IEnumerable<ScoreSignal.Models.Match>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+ <input type="hidden" value="@Html.DisplayFor(model => model.FirstOrDefault().Ligue)" id="ligue"></input>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+ <table class="table  table-bordered table-striped " >
+      <tbody id="matchs">
+      </tbody>
+    </table>
+
+@section Scripts{
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/IndexMatchs.js"></script> }
+    
+      
+  

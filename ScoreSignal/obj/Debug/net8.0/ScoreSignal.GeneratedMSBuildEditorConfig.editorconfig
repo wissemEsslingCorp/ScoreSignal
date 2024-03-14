@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ScoreSignal
+build_property.RootNamespace = ScoreSignal
+build_property.ProjectDir = c:\Users\14384\scoresignal\ScoreSignal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\14384\scoresignal\ScoreSignal
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Equipes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Equipes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Equipes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Equipes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Equipes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Evenement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Evenement/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Evenement/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Evenement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Evenement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Matchs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Matchs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Matchs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Matchs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Matchs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/14384/scoresignal/ScoreSignal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-a2dvcrgoau

@@ -1,0 +1,26 @@
+@model ScoreSignal.Models.Match
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<table class="table text-white">
+  <tbody id="match">
+
+  </tbody>
+</table>
+<input id="matchId" type="hidden" value="@Html.DisplayFor(model => model.MatchId)">
+<!-- Card pour les évènement de temps -->
+<section class="text-black " id="evenement">
+
+ 
+</section>
+
+<div>
+    <a  asp-action="Index" asp-route-ligue="@Model.Ligue">Back to List</a>
+</div>
+
+@section Scripts{
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/DetailsMatch.js"></script>
+<script src="~/js/DetailsHead.js"></script> }
